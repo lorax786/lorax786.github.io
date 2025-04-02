@@ -7,3 +7,7 @@
 [submodule "themes/congo"]
 	path = themes/congo
 	url = https://github.com/jpanther/congo.git
+	branch = stable
+[submodule "themes/void"]
+	path = themes/void
+	url = https://github.com/Daucloud/hugo-theme-void
