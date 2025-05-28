@@ -13,7 +13,7 @@ theme = 'void'
     [params.social]
     github = 'https://github.com/lorax786'
     [params.avatar]
-    url = 'images/retro astronaut.webp'
+    url = {{ $image := resources.Get 'images/retro astronaut.webp' }}
 
 # Main menu
 [[menus.main]]
