@@ -1,31 +1,3 @@
-baseURL = 'https://alimalik.me/'
+baseURL = 'https://example.org/'
 languageCode = 'en-us'
-title = 'Ali Malik'   
-theme = 'void'
-
-# Social media lnks
-[params]
-    copyright-year = "2025"
-    subtitle = 'The Digital Frontier'
-    [params.author]
-    email = 'ali@alimalik.me'
-    name = 'Ali Malik' 
-    [params.social]
-    github = 'https://github.com/lorax786'
-    [params.avatar]
-    url = '/assets/images/retro astronaut.webp'
-
-# Main menu
-[[menus.main]]
-name = 'My Thoughts'
-url = 'https://blog.alimalik.me'
-weight = 10
-
-[[menus.main]]
-name = 'About Me'
-pageRef = '/about'
-weight = 401
-
-[caches]
-    [caches.images]
-    dir = ':cacheDir/images'
+title = 'My New Hugo Site'
