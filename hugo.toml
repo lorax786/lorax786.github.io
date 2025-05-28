@@ -1,25 +1,25 @@
 baseURL = 'https://alimalik.me/'
 languageCode = 'en-us'
-title = 'The Digital Frontier'   
+title = 'Ali Malik'   
 theme = 'void'
 
 # Social media lnks
 [params]
+    copyright-year = "2025"
+    subtitle = 'The Digital Frontier'
+    [params.author]
+    email = 'ali@alimalik.me'
+    name = 'Ali Malik' 
     [params.social]
-    github = "https://github.com/lorax786"
+    github = 'https://github.com/lorax786'
     [params.avatar]
-    url = "https://avatar.iran.liara.run/public"
+    url = 'images/retro astronaut.webp'
 
 # Main menu
 [[menus.main]]
-name = 'Home'
-pageRef = '/'
-weight = 10
-
-[[menus.main]]
 name = 'My Thoughts'
 url = 'https://blog.alimalik.me'
-weight = 20
+weight = 10
 
 [[menus.main]]
 name = 'About Me'
